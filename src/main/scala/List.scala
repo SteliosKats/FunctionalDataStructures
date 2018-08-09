@@ -114,7 +114,7 @@ object Run extends App {
       case Cons(h, t) => f(h,foldRight(t,z)(f))
     }
 
-  //Using FoldLeft which is not ideal as it throws StackOverflow for large lists
+  //Using FoldRight which is not ideal as it throws StackOverflow for large lists
   def length[A] (lst:List[A]) :Int =
     lst match {
       case Nil => 0
