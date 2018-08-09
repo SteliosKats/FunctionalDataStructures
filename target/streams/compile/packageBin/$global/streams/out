@@ -1,0 +1,29 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/functionaldatastructures_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnCurrying.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/UnCurrying.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Cons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Cons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Currying$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Currying$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Currying.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Currying.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Nil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	List$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/List$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UnCurrying$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/UnCurrying$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Run$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Run$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Run.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Run.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Nil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Run$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/classes/Run$delayedInit$body.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
