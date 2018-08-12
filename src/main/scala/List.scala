@@ -121,19 +121,20 @@ object Run extends App {
       case Cons(h, t) => foldRight(lst, 0)((x,y) => y+1)
     }
 
-  def foldLeft[A,B](list: List[A], z:B)(f:(A,B) =>B):B =
+  def foldLeft[A,B](list: List[A], z:B)(f:(B,A) =>B):B =
     list match {
       case Nil => z
-      case Cons(h,t) => foldLeft(t,f(h,z))(f)
+      case Cons(h,t) => foldLeft(t,f(z,h))(f)
     }
 
   //Using FoldLeft which is ideal as it traverses the list sequentially and does not need to store function callbacks on stack
   def length2[A] (lst:List[A]):Int =
     lst match {
       case Nil => 0
-      case Cons(h, t) => foldLeft(lst, 0)((x,y) => y+1)
+      case Cons(h, t) => foldLeft(lst, 0)((x,y) => x+1)
     }
 
-  println(length(List(1,2,3,4,5,6,7,8))+" and "+length2(List(1,2,3,4,5,6,7,8)))
-
+  def sumLeft(lst :List[Int]) = foldLeft(lst,0)(_+_)
+  def sumRight(lst:List[Int]) =foldRight(lst,0)((x,y) => x + y)
+  //def prod
 }
