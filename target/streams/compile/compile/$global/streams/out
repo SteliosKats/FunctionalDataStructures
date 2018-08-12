@@ -1,4 +1,14 @@
-[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:127:42: B does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m      case Cons(h,t) => foldLeft(t,f(h,z)(f))[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:137:51: overloaded method value + with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (A)[0m
+[0m[[0m[31merror[0m] [0m[0m  def sumLeft[A](lst :List[A]) = foldLeft(lst,0)(_+_)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:138:61: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m  def sumRight[A](lst:List[A]) =foldRight(lst,0)((x,y) => x+y)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
