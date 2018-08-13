@@ -136,5 +136,16 @@ object Run extends App {
 
   def sumLeft(lst :List[Int]) = foldLeft(lst,0)(_+_)
   def sumRight(lst:List[Int]) =foldRight(lst,0)((x,y) => x + y)
-  //def prod
+
+  def reverse[A](lst :List[A]) = {
+     def go(l :List[A], newlist: A):List[A] =
+       l match {
+         case Nil => Nil
+         case Cons(x,Nil) => Cons(x,newlist)
+         case Cons(h,t) => go(t,Cons(h,newlist))
+       }
+       if(l == Nil) Nil
+       else go(l, List[A]())
+
+  }
 }
