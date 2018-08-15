@@ -1,14 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:137:51: overloaded method value + with alternatives:[0m
-[0m[[0m[31merror[0m] [0m[0m  (x: Int)Int <and>[0m
-[0m[[0m[31merror[0m] [0m[0m  (x: Char)Int <and>[0m
-[0m[[0m[31merror[0m] [0m[0m  (x: Short)Int <and>[0m
-[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Int[0m
-[0m[[0m[31merror[0m] [0m[0m cannot be applied to (A)[0m
-[0m[[0m[31merror[0m] [0m[0m  def sumLeft[A](lst :List[A]) = foldLeft(lst,0)(_+_)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:138:61: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: String[0m
-[0m[[0m[31merror[0m] [0m[0m  def sumRight[A](lst:List[A]) =foldRight(lst,0)((x,y) => x+y)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:147:11: not found: value l[0m
+[0m[[0m[31merror[0m] [0m[0m       if(l == Nil) Nil[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:148:16: not found: value l[0m
+[0m[[0m[31merror[0m] [0m[0m       else go(l, List[A]())[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

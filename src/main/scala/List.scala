@@ -138,14 +138,19 @@ object Run extends App {
   def sumRight(lst:List[Int]) =foldRight(lst,0)((x,y) => x + y)
 
   def reverse[A](lst :List[A]) = {
-     def go(l :List[A], newlist: A):List[A] =
+     def go(l :List[A], newlist:List[A]):List[A] =
        l match {
          case Nil => Nil
          case Cons(x,Nil) => Cons(x,newlist)
          case Cons(h,t) => go(t,Cons(h,newlist))
        }
-       if(l == Nil) Nil
-       else go(l, List[A]())
+       if(lst == Nil) Nil
+       else go(lst, List[A]())
 
   }
+
+  def appendviaFoldRight[A](lst:List[A], new_lst:List[A]) =
+    foldRight(lst, new_lst)((lst,new_lst) => Cons(lst,new_lst))
+
+  //println(appendviaFoldRight(List(1,2,3,4),List(5,6,7,8)))
 }
