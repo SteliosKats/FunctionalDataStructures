@@ -150,7 +150,16 @@ object Run extends App {
   }
 
   def appendviaFoldRight[A](lst:List[A], new_lst:List[A]) =
-    foldRight(lst, new_lst)((lst,new_lst) => Cons(lst,new_lst))
+    foldRight(lst, new_lst)((innerlst,new_lst) => Cons(innerlst,new_lst))
 
-  //println(appendviaFoldRight(List(1,2,3,4),List(5,6,7,8)))
+  def concat[A](lst:List[List[A]]):List[A] = foldRight(lst, Nil:List[A])((x,y)=> (appendviaFoldRight(x,y)))
+
+  def plusOne(lst:List[Int]):List[Int] = foldRight(lst,Nil:List[Int])((elem,y) => (Cons(elem+1,y)))
+
+  def doubleToString(lst :List[Double]):List[String] =  foldright(lst, Nil:list[String])((elem,y) =>(Cons(elem.toString,y)))
+
+  def map[A, B](l: List[A])(f: A => B): List[B] = foldRight(l, Nil: List[B])((h, t) => Cons(f(h), t))
+
+  println(concat(List(List(1,2),List(3,4),List(5,4,8,10,9))))
+  printintln(plusOne(List(1,2,3,4,5,6,7)))
 }
