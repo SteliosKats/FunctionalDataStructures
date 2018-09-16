@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:147:11: not found: value l[0m
-[0m[[0m[31merror[0m] [0m[0m       if(l == Nil) Nil[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:148:16: not found: value l[0m
-[0m[[0m[31merror[0m] [0m[0m       else go(l, List[A]())[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala:159:76: not found: type list[0m
+[0m[[0m[31merror[0m] [0m[0m  def doubleToString(lst :List[Double]):List[String] =  foldRight(lst, Nil:list[String])((elem,y) =>(Cons(elem.toString,y)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
