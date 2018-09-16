@@ -29,3 +29,26 @@ rin
 run
 git commit
 exit
+ensimeConfig
+sbt ensimeConfig
+ensimeConfig
+exit
+ensimeConfig
+exit
+ensimeConfig
+update
+ensimeConfig
+build
+clean
+install
+run
+exit
+compile
+run
+exit
+ensimeConfig
+exit
+run
+exit
+run
+exit
