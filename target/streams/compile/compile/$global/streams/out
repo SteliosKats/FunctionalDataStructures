@@ -1,7 +1,65 @@
-[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Trees.scala:35:44: not found: type B[0m
-[0m[[0m[31merror[0m] [0m[0m  def map[A](tree:Tree[A])(f: A => B):Tree[B] = { [0m
-[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Trees.scala:35:36: not found: type B[0m
-[0m[[0m[31merror[0m] [0m[0m  def map[A](tree:Tree[A])(f: A => B):Tree[B] = { [0m
-[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala:18:12: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Some[A][0m
+[0m[[0m[31merror[0m] [0m[0m required: Option.type[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(a) => Some(f(a))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala:19:12: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Option.type[0m
+[0m[[0m[31merror[0m] [0m[0m      case None => None[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala:22:22: not found: type A[0m
+[0m[[0m[31merror[0m] [0m[0m  def getOrElse[B >: A](ob: => B): Option[B] =[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala:24:12: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Option.type[0m
+[0m[[0m[31merror[0m] [0m[0m      case None => None[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala:26:12: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Some[A][0m
+[0m[[0m[31merror[0m] [0m[0m required: Option.type[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(a) => map(a)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala:29:21: not found: type A[0m
+[0m[[0m[31merror[0m] [0m[0m  def flatMap[B](f: A => Option[B]): Option[B] = this.getOrElse(a)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala:29:65: not found: value a[0m
+[0m[[0m[31merror[0m] [0m[0m  def flatMap[B](f: A => Option[B]): Option[B] = this.getOrElse(a)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala:5:8: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Stream.Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A][0m
+[0m[[0m[31merror[0m] [0m[0m		case Empty => None[0m
+[0m[[0m[31merror[0m] [0m[0m		     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala:6:8: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Cons[A(in class Cons)][0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A(in trait Stream)][0m
+[0m[[0m[31merror[0m] [0m[0m		case Cons(h,t) => Some(h)	[0m
+[0m[[0m[31merror[0m] [0m[0m		     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala:10:8: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Cons[A(in class Cons)][0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A(in trait Stream)][0m
+[0m[[0m[31merror[0m] [0m[0m		case Cons(h,t) => f(h(),t.foldRight(z)(f))[0m
+[0m[[0m[31merror[0m] [0m[0m		     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala:17:8: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Cons[A(in class Cons)][0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A(in trait Stream)][0m
+[0m[[0m[31merror[0m] [0m[0m		case Cons(h,t) => h() :: t().toList()[0m
+[0m[[0m[31merror[0m] [0m[0m		     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala:18:11: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Stream.Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A][0m
+[0m[[0m[31merror[0m] [0m[0m	    case Empty => Nil[0m
+[0m[[0m[31merror[0m] [0m[0m	         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala:23:13: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Cons[A(in class Cons)][0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A(in trait Stream)][0m
+[0m[[0m[31merror[0m] [0m[0m       case Cons(h ,t) if(p(h)) => t().forAll(p)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala:25:13: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Cons[A(in class Cons)][0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A(in trait Stream)][0m
+[0m[[0m[31merror[0m] [0m[0m       case Cons(h ,t) if(!p(h)) =>  false[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m

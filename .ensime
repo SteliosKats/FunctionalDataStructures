@@ -21,8 +21,8 @@
    :compile-deps ("/home/stelios/.sbt/boot/scala-2.12.6/lib/scala-library.jar")
    :runtime-deps nil
    :test-deps nil
-   :doc-jars ("/home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/functionaldatastructures_2.12-0.1-javadoc.jar" "/home/stelios/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.12.6-javadoc.jar")
-   :reference-source-roots ("/home/stelios/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar")))
+   :doc-jars ("/home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/functionaldatastructures_2.12-0.1-javadoc.jar" "/home/stelios/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-javadoc.jar")
+   :reference-source-roots ("/home/stelios/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar")))
  :projects ((
     :id (:project "functionaldatastructures" :config "compile")
     :depends nil
@@ -31,8 +31,8 @@
     :scalac-options ("-Ymacro-expand:discard")
     :javac-options nil
     :library-jars ("/home/stelios/.sbt/boot/scala-2.12.6/lib/scala-library.jar")
-    :library-sources ("/home/stelios/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar")
-    :library-docs ("/home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/functionaldatastructures_2.12-0.1-javadoc.jar" "/home/stelios/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.12.6-javadoc.jar")) (
+    :library-sources ("/home/stelios/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar")
+    :library-docs ("/home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/functionaldatastructures_2.12-0.1-javadoc.jar" "/home/stelios/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-javadoc.jar")) (
     :id (:project "functionaldatastructures" :config "test")
     :depends ((:project "functionaldatastructures" :config "compile"))
     :sources ("/home/stelios/workspace/FunctionalDataStructures/src/test/java" "/home/stelios/workspace/FunctionalDataStructures/src/test/scala-2.12" "/home/stelios/workspace/FunctionalDataStructures/src/test/scala" "/home/stelios/workspace/FunctionalDataStructures/target/scala-2.12/src_managed/test")

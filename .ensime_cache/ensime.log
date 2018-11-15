@@ -1,0 +1,42 @@
+2018-11-15 23:18:21.863021: Initializing project - /home/stelios/workspace/FunctionalDataStructures
+INFO     <2018-11-15 23:18:21,863> (env.py:102) - Logger initialised.
+INFO     <2018-11-15 23:18:21,873> (client.py:144) - ----Initialising server----
+INFO     <2018-11-15 23:18:26,008> (client.py:222) - About to connect to ws://127.0.0.1:40253/websocket with options {'subprotocols': ['jerky'], 'enable_multithread': True}
+INFO     <2018-11-15 23:18:26,276> (outgoing.py:18) - send_request: 
+{'callId': 1, 'req': {'typehint': 'ConnectionInfoReq'}}
+INFO     <2018-11-15 23:18:30,284> (protocol.py:80) - Connected to the ensime server 1.9.6 through websocket. Please wait while we get the analyzer and indexer ready. Indexing files may take a while and consequently the context menu commands may take longer to get enabled. You may check the server.log to see what's currently indexing or if any error occured while indexing.
+INFO     <2018-11-15 23:18:30,298> (protocol.py:110) - Handled FullTypecheckCompleteEvent. Redrawing highlights.
+INFO     <2018-11-15 23:18:30,404> (protocol.py:93) - Analyzer is ready.
+INFO     <2018-11-15 23:18:30,405> (outgoing.py:18) - send_request: 
+{'callId': 2,
+ 'req': {'files': ['/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Trees.scala',
+                   '/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala',
+                   '/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Option.scala',
+                   '/home/stelios/workspace/FunctionalDataStructures/src/main/scala/List.scala'],
+         'typehint': 'TypecheckFilesReq'}}
+INFO     <2018-11-15 23:18:33,248> (protocol.py:85) - 105 : Initializing Analyzer. Please wait...
+INFO     <2018-11-15 23:18:33,264> (protocol.py:85) - 105 : Initializing Analyzer. Please wait...
+WARNING  <2018-11-15 23:18:33,550> (protocol.py:72) - Response has not been handled: 
+{'typehint': 'VoidResponse'}
+INFO     <2018-11-15 23:18:36,537> (protocol.py:110) - Handled FullTypecheckCompleteEvent. Redrawing highlights.
+INFO     <2018-11-15 23:19:20,248> (protocol.py:89) - Indexer is ready. Context menu commands are alive! :D
+WARNING  <2018-11-15 23:19:20,336> (protocol.py:72) - Response has not been handled: 
+{'typehint': 'CompilerRestartedEvent'}
+INFO     <2018-11-15 23:19:21,259> (protocol.py:110) - Handled FullTypecheckCompleteEvent. Redrawing highlights.
+INFO     <2018-11-15 23:19:45,375> (outgoing.py:18) - send_request: 
+{'callId': 3,
+ 'req': {'files': ['/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala'],
+         'typehint': 'TypecheckFilesReq'}}
+WARNING  <2018-11-15 23:19:45,403> (protocol.py:72) - Response has not been handled: 
+{'typehint': 'VoidResponse'}
+INFO     <2018-11-15 23:19:45,925> (protocol.py:110) - Handled FullTypecheckCompleteEvent. Redrawing highlights.
+WARNING  <2018-11-15 23:21:08,640> (protocol.py:72) - Response has not been handled: 
+{'typehint': 'CompilerRestartedEvent'}
+INFO     <2018-11-15 23:21:09,174> (protocol.py:110) - Handled FullTypecheckCompleteEvent. Redrawing highlights.
+INFO     <2018-11-15 23:21:33,280> (outgoing.py:18) - send_request: 
+{'callId': 4,
+ 'req': {'files': ['/home/stelios/workspace/FunctionalDataStructures/src/main/scala/Stream.scala'],
+         'typehint': 'TypecheckFilesReq'}}
+WARNING  <2018-11-15 23:21:33,295> (protocol.py:72) - Response has not been handled: 
+{'typehint': 'VoidResponse'}
+INFO     <2018-11-15 23:21:33,868> (protocol.py:110) - Handled FullTypecheckCompleteEvent. Redrawing highlights.

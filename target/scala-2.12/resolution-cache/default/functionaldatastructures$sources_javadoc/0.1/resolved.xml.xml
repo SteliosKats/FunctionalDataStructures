@@ -4,7 +4,7 @@
 		module="functionaldatastructures$sources_javadoc"
 		revision="0.1"
 		status="integration"
-		publication="20180916072741"
+		publication="20180923153255"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
