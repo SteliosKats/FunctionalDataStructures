@@ -1,4 +1,4 @@
-import scala.math.max
+package com.functionalDatastructures
 
 sealed trait Tree[+A]
 

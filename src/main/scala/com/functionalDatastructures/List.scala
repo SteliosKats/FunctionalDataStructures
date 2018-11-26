@@ -1,3 +1,6 @@
+package com.functionalDatastructures
+
+import com.functionalDatastructures._
 sealed trait List[+A]
 
 case object Nil extends List[Nothing]
